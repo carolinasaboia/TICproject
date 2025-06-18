@@ -138,7 +138,7 @@ float calcularStress(int gsrRaw, int bpm) {
   // Parâmetros de calibração
   int HR_min = 40;
   int HR_max = 200;
-  int GSR_min = 200;
+  int GSR_min = 300;
   int GSR_max = 500;
 
   int HR = bpm;
